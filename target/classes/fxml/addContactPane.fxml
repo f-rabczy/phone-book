@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="telebook.controller.AddContactPaneController">
+
+    <children>
+        <Label layoutX="20.0" layoutY="35.0" text="Name:" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="15.0"
+               AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="20.0"/>
+        <Label layoutX="20.0" layoutY="67.0" text="Number:" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="15.0"
+               AnchorPane.rightAnchor="188.0" AnchorPane.topAnchor="60.0"/>
+        <TextField fx:id="nameTextField" layoutX="67.0" layoutY="16.0" AnchorPane.bottomAnchor="96.0"
+                   AnchorPane.leftAnchor="67.0" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="16.0"/>
+        <TextField fx:id="numberTextField" layoutX="67.0" layoutY="56.0" AnchorPane.bottomAnchor="56.0"
+                   AnchorPane.leftAnchor="67.0" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="56.0"/>
+        <Button fx:id="addButton" layoutX="13.0" layoutY="85.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="47.0" text="Add" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0"
+                AnchorPane.rightAnchor="188.0" AnchorPane.topAnchor="97.0"/>
+    </children>
+</AnchorPane>
